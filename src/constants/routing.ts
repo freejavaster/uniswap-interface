@@ -65,6 +65,7 @@ export const CUSTOM_BASES: { [chainId: number]: { [tokenAddress: string]: Token[
 export const COMMON_BASES: ChainCurrencyList = {
   [SupportedChainId.MAINNET]: [
     ExtendedEther.onChain(SupportedChainId.MAINNET),
+    SZMOON,
     DAI,
     USDC,
     USDT,
