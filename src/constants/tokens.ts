@@ -2,6 +2,13 @@ import { WETH9, Token, Ether } from '@uniswap/sdk-core'
 import { UNI_ADDRESS } from './addresses'
 import { SupportedChainId } from './chains'
 
+export const SZMOON = new Token(
+  SupportedChainId.MAINNET,
+  '0xD46bA6D942050d489DBd938a2C909A5d5039A161',
+  9,
+  'SZMOON',
+  'SZMOON'
+)
 export const AMPL = new Token(
   SupportedChainId.MAINNET,
   '0xD46bA6D942050d489DBd938a2C909A5d5039A161',

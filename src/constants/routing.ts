@@ -4,6 +4,7 @@ import { SupportedChainId } from './chains'
 import {
   AMPL,
   DAI,
+  SZMOON,
   ExtendedEther,
   FEI,
   FRAX,
